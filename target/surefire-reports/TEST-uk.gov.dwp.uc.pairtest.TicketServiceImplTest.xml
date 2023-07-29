@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.7+7"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-17.0.7.0.7-5.fc37.x86_64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/georgejezerniczky/cleanProject/cinema-tickets/cinema-tickets-java"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/georgejezerniczky/cinema-ticket-java"/>
     <property name="java.vm.vendor" value="Red Hat, Inc."/>
     <property name="java.vendor.url" value="https://www.redhat.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="test" value="uk.gov.dwp.uc.pairtest.TicketServiceImplTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/georgejezerniczky/cleanProject/cinema-tickets/cinema-tickets-java"/>
+    <property name="user.dir" value="/home/georgejezerniczky/cinema-ticket-java"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.7+7"/>
     <property name="os.arch" value="amd64"/>
@@ -59,10 +59,10 @@
     <property name="java.vendor.version" value="(Red_Hat-17.0.7.0.7-4.fc37)"/>
   </properties>
   <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="purchseRequestWithoutAdult" time="0.003"/>
-  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="purchseRequestWithoutTickets" time="0"/>
-  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="successfulTicketPurchaseJustAdult" time="0.001"/>
+  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="purchseRequestWithoutTickets" time="0.001"/>
+  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="successfulTicketPurchaseJustAdult" time="0"/>
   <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="requestingMoreInfantTicketThanAdultOne" time="0"/>
-  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="successfulTicketPurchaseAdultChildAndInfant" time="0"/>
+  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="successfulTicketPurchaseAdultChildAndInfant" time="0.001"/>
   <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="successfulTicketPurchaseAdultAndChild" time="0"/>
-  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="requestingMoreTicketThanTheMaximum" time="0.007"/>
+  <testcase classname="uk.gov.dwp.uc.pairtest.TicketServiceImplTest" name="requestingMoreTicketThanTheMaximum" time="0.006"/>
 </testsuite>
