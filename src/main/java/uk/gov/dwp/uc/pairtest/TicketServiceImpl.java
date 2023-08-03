@@ -25,7 +25,7 @@ public class TicketServiceImpl implements TicketService {
         }
         
         try {
-            new TicketPaymentServiceImpl().makePayment(accountId, totalSeat);
+            new TicketPaymentServiceImpl().makePayment(accountId, totalPrice);
             new SeatReservationServiceImpl().reserveSeat(accountId, totalSeat);
             
             return true;   
